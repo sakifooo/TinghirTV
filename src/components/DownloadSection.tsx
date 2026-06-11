@@ -22,15 +22,17 @@ export function DownloadSection() {
             <h3 className="text-2xl font-headline font-bold mb-2">Tinghir TV v4.2.0</h3>
             <p className="text-xs text-muted-foreground mb-8">Size: 18.5 MB • Last Updated: 2 hours ago</p>
 
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-accent text-white h-16 px-12 rounded-full font-bold text-xl glow-red shadow-primary/40 group relative overflow-hidden"
-            >
-              <span className="relative z-10 flex items-center gap-3">
-                <Download /> Download APK
-              </span>
-              <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 skew-x-12" />
-            </Button>
+           <a href="/TinghirTV.apk" download>
+  <Button
+    size="lg"
+    className="bg-primary hover:bg-accent text-white h-16 px-12 rounded-full font-bold text-xl glow-red shadow-primary/40 group relative overflow-hidden"
+  >
+    <span className="relative z-10 flex items-center gap-3">
+      <Download /> Download APK
+    </span>
+    <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 skew-x-12" />
+  </Button>
+</a>
             
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-3xl border-t border-white/5 pt-12">
               <div className="flex flex-col items-center gap-2">
