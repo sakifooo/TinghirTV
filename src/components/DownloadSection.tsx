@@ -20,7 +20,7 @@ export function DownloadSection() {
             </div>
             
             <h3 className="text-2xl font-headline font-bold mb-2">Tinghir TV v4.2.0</h3>
-            <p className="text-xs text-muted-foreground mb-8">Size: 18.5 MB • Last Updated: 2 hours ago</p>
+            <p className="text-xs text-muted-foreground mb-8">Size: 7.5 MB • Last Updated: 2 hours ago</p>
 
            <a href="/TinghirTV.apk" download>
   <Button
