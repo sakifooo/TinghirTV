@@ -29,13 +29,17 @@ export function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-accent text-white px-8 h-14 rounded-full font-bold glow-red glow-red-hover transition-all text-lg group"
-          >
-            <Download className="mr-2 group-hover:translate-y-1 transition-transform" />
-            Download APK
-          </Button>
+          <a href="/TinghirTV.apk" download>
+  <Button
+    size="lg"
+    className="bg-primary hover:bg-accent text-white h-16 px-12 rounded-full font-bold text-xl glow-red shadow-primary/40 group relative overflow-hidden"
+  >
+    <span className="relative z-10 flex items-center gap-3">
+      <Download /> Download APK
+    </span>
+    <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 skew-x-12" />
+  </Button>
+</a>
         </div>
       </div>
     </section>
