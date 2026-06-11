@@ -1,0 +1,11 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "logo-placeholder",
+      "description": "Tinghir TV Sports Logo",
+      "imageUrl": "https://picsum.photos/seed/football-ball-icon/200/200",
+      "imageHint": "football logo"
+    }
+  ]
+}
