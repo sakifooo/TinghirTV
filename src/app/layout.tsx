@@ -3,8 +3,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Tinghir TV',
-  description: 'Download Tinghir TV to watch live football matches, highlights, and sports news anywhere, anytime.  
-حمّل تطبيق Tinghir TV لمشاهدة مباريات كرة القدم مباشرة، وأهداف المباريات، وآخر الأخبار الرياضية في أي وقت ومن أي مكان.',
+description: `Download Tinghir TV to watch live football matches, highlights, and sports news anywhere, anytime.  
+حمّل تطبيق Tinghir TV لمشاهدة مباريات كرة القدم مباشرة، وأهداف المباريات، وآخر الأخبار الرياضية في أي وقت ومن أي مكان.`,
   applicationName: 'Tinghir TV',
  keywords: [
    'tinghir tv',
