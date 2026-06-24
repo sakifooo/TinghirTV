@@ -2,6 +2,9 @@ import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
 
 export function Hero() {
+  // Rabit d GitHub Release bash y7seb downloads 100%
+  const downloadUrl = "https://github.com/sakifooo/TinghirTV/releases/download/v1.0.0/TinghirTV.apk";
+
   return (
     <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-secondary/5">
       {/* Gradient Background */}
@@ -29,17 +32,18 @@ export function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="/TinghirTV.apk" download>
-  <Button
-    size="lg"
-    className="bg-primary hover:bg-accent text-white h-16 px-12 rounded-full font-bold text-xl glow-red shadow-primary/40 group relative overflow-hidden"
-  >
-    <span className="relative z-10 flex items-center gap-3">
-      <Download /> Download APK
-    </span>
-    <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 skew-x-12" />
-  </Button>
-</a>
+          {/* Bdelna href hna b link d github release direct */}
+          <a href={downloadUrl}>
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-accent text-white h-16 px-12 rounded-full font-bold text-xl glow-red shadow-primary/40 group relative overflow-hidden"
+            >
+              <span className="relative z-10 flex items-center gap-3">
+                <Download /> Download APK
+              </span>
+              <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 skew-x-12" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>
