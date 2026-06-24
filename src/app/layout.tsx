@@ -39,7 +39,7 @@ description: `Download Tinghir TV to watch live football matches, highlights, an
     type: 'website',
       images: [
     {
-      url: '/TinghirTV.png',
+      url: '/tinghirtv.png',
       width: 1024,
       height: 1024,
       alt: 'tinghir tv',
