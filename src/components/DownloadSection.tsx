@@ -1,8 +1,10 @@
-
 import { Button } from '@/components/ui/button';
 import { Download, ShieldCheck, Smartphone, Zap } from 'lucide-react';
 
 export function DownloadSection() {
+  // Rabit d GitHub Release exact bash y7seb downloads direct mn l-button lta7t
+  const downloadUrl = "https://github.com/sakifooo/TinghirTV/releases/download/v1.0.0/TinghirTV.apk";
+
   return (
     <section className="py-24 relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-primary/20 blur-[120px] rounded-full pointer-events-none" />
@@ -22,17 +24,18 @@ export function DownloadSection() {
             <h3 className="text-2xl font-headline font-bold mb-2">Tinghir TV v4.2.0</h3>
             <p className="text-xs text-muted-foreground mb-8">Size: 7.5 MB • Last Updated: 2 hours ago</p>
 
-           <a href="/TinghirTV.apk" download>
-  <Button
-    size="lg"
-    className="bg-primary hover:bg-accent text-white h-16 px-12 rounded-full font-bold text-xl glow-red shadow-primary/40 group relative overflow-hidden"
-  >
-    <span className="relative z-10 flex items-center gap-3">
-      <Download /> Download APK
-    </span>
-    <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 skew-x-12" />
-  </Button>
-</a>
+            {/* Bdelna href hna b link d github release direct */}
+            <a href={downloadUrl}>
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-accent text-white h-16 px-12 rounded-full font-bold text-xl glow-red shadow-primary/40 group relative overflow-hidden"
+              >
+                <span className="relative z-10 flex items-center gap-3">
+                  <Download /> Download APK
+                </span>
+                <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 skew-x-12" />
+              </Button>
+            </a>
             
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-3xl border-t border-white/5 pt-12">
               <div className="flex flex-col items-center gap-2">
