@@ -19,7 +19,7 @@ description: `Download Tinghir TV to watch live football matches, highlights, an
     'live football',
   ], // ← هادي كانت ناقصة
 
-   metadataBase: new URL('https://tinghir-tv.vercel.app'),
+   metadataBase: new URL('https://tinghirtv.site/'),
  verification: {
     google: 'VzK0Ce6V01Jr_8MvkE_i_rwtYftEtrnNdtl5KY1cIdQ',
   },
@@ -33,7 +33,7 @@ description: `Download Tinghir TV to watch live football matches, highlights, an
   openGraph: {
     title: 'tinghir tv',
     description: 'تابع مباريات اليوم بث مباشر.',
-    url: 'https://tinghir-tv.vercel.app',
+    url: 'https://tinghirtv.site/',
     siteName: 'tinghir tv',
     locale: 'ar_MA',
     type: 'website',
