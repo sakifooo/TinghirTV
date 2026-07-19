@@ -3,56 +3,54 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Tinghir TV',
-description: `Download Tinghir TV to watch live football matches, highlights, and sports news anywhere, anytime.  
+  description: `Download Tinghir TV to watch live football matches, highlights, and sports news anywhere, anytime.
 حمّل تطبيق Tinghir TV لمشاهدة مباريات كرة القدم مباشرة، وأهداف المباريات، وآخر الأخبار الرياضية في أي وقت ومن أي مكان.`,
-  applicationName: 'Tinghir TV',
- keywords: [
-   'tinghir tv',
-    'kora live',
-    'بث مباشر',
-    'مباريات اليوم',
-    'نتائج المباريات',
-    'الدوري الإسباني',
-    'الدوري الإيطالي',
-    'الدوري السعودي',
-    'دوري أبطال أوروبا',
-    'live football',
-  ], // ← هادي كانت ناقصة
 
-   metadataBase: new URL('https://tinghirtv.site/'),
- verification: {
+  applicationName: 'Tinghir TV',
+  keywords: [
+    'tinghir tv', 'kora live', 'بث مباشر', 'مباريات اليوم', 'نتائج المباريات',
+    'الدوري الإسباني', 'الدوري الإيطالي', 'الدوري السعودي', 'دوري أبطال أوروبا', 'live football',
+  ],
+  
+  metadataBase: new URL('https://tinghirtv.site/'),
+  
+  verification: {
     google: 'VzK0Ce6V01Jr_8MvkE_i_rwtYftEtrnNdtl5KY1cIdQ',
   },
+  
   robots: {
-  index: true,
-  follow: true,
-},
+    index: true,
+    follow: true,
+  },
+  
   alternates: {
     canonical: '/',
   },
+
   openGraph: {
-    title: 'tinghir tv',
-    description: 'تابع مباريات اليوم بث مباشر.',
+    title: 'Tinghir TV - بث مباشر',
+    description: 'تابع مباريات اليوم بث مباشر بدون تقطيع',
     url: 'https://tinghirtv.site/',
-    siteName: 'tinghir tv',
+    siteName: 'Tinghir TV',
     locale: 'ar_MA',
     type: 'website',
-      images: [
-  {
-    src: "/tinghirtv.png",
-    width: 280,
-    height: 140,
-    alt: "tinghir tv",
-  },
-],
+    images: [
+      {
+        url: "/tinghirtv.png",        // ← يجب أن يكون url مش src
+        width: 1200,                  // أحسن أبعاد لـ Open Graph
+        height: 630,
+        alt: "Tinghir TV Logo",
+      },
+    ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'tinghir tv',
+    title: 'Tinghir TV',
     description: 'تابع مباريات اليوم بث مباشر.',
+    images: ["/tinghirtv.png"],
   },
-  
+
   icons: {
     icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23ff1a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2v20M2 12h20m-3-7-14 14m0-14 14 14"/></svg>',
   },
@@ -64,7 +62,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="ar" dir="rtl" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
