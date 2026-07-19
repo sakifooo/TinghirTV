@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://tinghir-tv.vercel.app/sitemap.xml',
+    sitemap: 'https://tinghirtv.site/sitemap.xml',
   }
 }
