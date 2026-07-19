@@ -38,13 +38,13 @@ description: `Download Tinghir TV to watch live football matches, highlights, an
     locale: 'ar_MA',
     type: 'website',
       images: [
-    {
-   url: "https://drive.usercontent.google.com/download?id=1gl-Tudf_DuJCEmLnmi8A32m3pICSwMaq&export=view&authuser=0",
-      width: 280,
-      height: 140,
-      alt: 'tinghir tv',
-    },
-  ],
+  {
+    src: "/tinghirtv.png",
+    width: 280,
+    height: 140,
+    alt: "tinghir tv",
+  },
+],
   },
 
   twitter: {
