@@ -95,7 +95,7 @@ export default function Home() {
             <p className="text-muted-foreground mb-10">Have questions or feedback? Our support team is here to help you 24/7.</p>
             <Link href="/contact">
               <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 px-8 rounded-full font-bold">
-                <Mail className="mr-2" /> contact@tinghirtv.com
+                <Mail className="mr-2" /> contact@tinghirtv.site
               </Button>
             </Link>
           </div>
