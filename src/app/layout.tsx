@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://tinghirtv.site/'),
   
   verification: {
-    google: 'VzK0Ce6V01Jr_8MvkE_i_rwtYftEtrnNdtl5KY1cIdQ',
+    google: 'kYpEuA3014EzqfLR87nxezrB17D-xAyBiWRa19SnAlo',
   },
   
   robots: {
