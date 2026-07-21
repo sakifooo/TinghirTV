@@ -16,12 +16,12 @@ export default function ContactUs() {
           <div className="text-center p-6 rounded-2xl bg-secondary/10 border border-white/5">
             <Mail className="mx-auto text-primary mb-4" />
             <h3 className="font-bold mb-1">Email</h3>
-            <p className="text-sm text-muted-foreground">support@tinghirtv.com</p>
+            <p className="text-sm text-muted-foreground">saki.sasin@gmail.com</p>
           </div>
           <div className="text-center p-6 rounded-2xl bg-secondary/10 border border-white/5">
             <MessageSquare className="mx-auto text-primary mb-4" />
             <h3 className="font-bold mb-1">Social</h3>
-            <p className="text-sm text-muted-foreground">@tinghirtv_live</p>
+            <p className="text-sm text-muted-foreground">saki.sasin@gmail.com</p>
           </div>
           <div className="text-center p-6 rounded-2xl bg-secondary/10 border border-white/5">
             <MapPin className="mx-auto text-primary mb-4" />
