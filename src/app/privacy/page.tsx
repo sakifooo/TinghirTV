@@ -122,3 +122,6 @@ export default function PrivacyPolicy() {
           absolute security.
         </p>
       </section>
+       </main>
+  );
+}
