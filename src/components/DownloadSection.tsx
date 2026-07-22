@@ -44,7 +44,7 @@ export function DownloadSection() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <Zap className="text-primary" size={20} />
-                <span className="text-sm font-bold">No Ads</span>
+                <span className="text-sm font-bold">Few Ads</span>
               </div>
               <div className="flex flex-col items-center gap-2">
                 <Smartphone className="text-primary" size={20} />
