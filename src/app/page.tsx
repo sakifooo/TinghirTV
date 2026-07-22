@@ -40,51 +40,77 @@ export default function Home() {
         
         <MobileGallery />
 
-        {/* Why Choose Section */}
-        <section className="py-24 bg-secondary/10">
-          <div className="max-w-5xl mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-headline font-bold mb-6">Why Choose Tinghir TV?</h2>
-                <div className="space-y-6">
-                  <div className="flex gap-4">
-                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                      1
-                    </div>
-                    <div>
-                      <h4 className="font-bold mb-1">Direct Access</h4>
-                      <p className="text-sm text-muted-foreground">No middleman, no account required. Just download and start watching your favorite teams instantly.</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-4">
-                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                      2
-                    </div>
-                    <div>
-                      <h4 className="font-bold mb-1">Low Latency Technology</h4>
-                      <p className="text-sm text-muted-foreground">Our servers are optimized for live sports, ensuring you see the goal before the neighbors scream.</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-4">
-                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                      3
-                    </div>
-                    <div>
-                      <h4 className="font-bold mb-1">Privacy First</h4>
-                      <p className="text-sm text-muted-foreground">We don't track your personal data. Your sports viewing habits are your own business.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="relative aspect-square rounded-3xl overflow-hidden border border-white/10 glow-red bg-secondary/20 flex items-center justify-center p-12 text-center">
-                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
-                 <div className="relative z-10 glass p-8 rounded-2xl">
-                    <p className="text-white font-headline font-bold italic text-xl">"The best companion for any football fan who is always on the move."</p>
-                 </div>
-              </div>
+{/* Why Choose Section */}
+<section className="py-24 bg-secondary/10">
+  <div className="max-w-5xl mx-auto px-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 className="text-3xl md:text-4xl font-headline font-bold mb-6">
+          Why Choose Tinghir TV?
+        </h2>
+
+        <div className="space-y-6">
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+              1
+            </div>
+            <div>
+              <h4 className="font-bold mb-1">Direct Access</h4>
+              <p className="text-sm text-muted-foreground">
+                No middleman, no account required. Just download and start watching your favorite teams instantly.
+              </p>
             </div>
           </div>
-        </section>
+
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+              2
+            </div>
+            <div>
+              <h4 className="font-bold mb-1">Low Latency Technology</h4>
+              <p className="text-sm text-muted-foreground">
+                Our servers are optimized for live sports, ensuring you see the goal before the neighbors scream.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+              3
+            </div>
+            <div>
+              <h4 className="font-bold mb-1">Privacy First</h4>
+              <p className="text-sm text-muted-foreground">
+                We don't track your personal data. Your sports viewing habits are your own business.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+              4
+            </div>
+            <div>
+              <h4 className="font-bold mb-1">Educational Purpose & Disclaimer</h4>
+              <p className="text-sm text-muted-foreground">
+                Tinghir TV is provided for educational and informational purposes only. We are not responsible for how users access or use third-party content. Users are solely responsible for ensuring their use complies with applicable laws, regulations, and copyright requirements in their country.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative aspect-square rounded-3xl overflow-hidden border border-white/10 glow-red bg-secondary/20 flex items-center justify-center p-12 text-center">
+        <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
+        <div className="relative z-10 glass p-8 rounded-2xl">
+          <p className="text-white font-headline font-bold italic text-xl">
+            "The best companion for any football fan who is always on the move."
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
         <FAQ />
 
