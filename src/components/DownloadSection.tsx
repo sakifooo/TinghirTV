@@ -3,7 +3,7 @@ import { Download, ShieldCheck, Smartphone, Zap } from 'lucide-react';
 
 export function DownloadSection() {
   // Rabit d GitHub Release exact bash y7seb downloads direct mn l-button lta7t
-  const downloadUrl = "https://github.com/sakifooo/TinghirTV/releases/download/v1.0.0/TinghirTV.apk";
+  const downloadUrl = "https://github.com/sakifooo/TinghirTV/releases/download/latest/TinghirTV.apk";
 
   return (
     <section className="py-24 relative overflow-hidden">
@@ -21,8 +21,8 @@ export function DownloadSection() {
               <Download size={40} />
             </div>
             
-            <h3 className="text-2xl font-headline font-bold mb-2">Tinghir TV v4.2.0</h3>
-            <p className="text-xs text-muted-foreground mb-8">Size: 7.5 MB • Last Updated: 2 hours ago</p>
+            <h3 className="text-2xl font-headline font-bold mb-2">Tinghir TV v1.1.0</h3>
+            <p className="text-xs text-muted-foreground mb-8">Size: 7.5 MB • Last Updated: 12 hours ago</p>
 
             {/* Bdelna href hna b link d github release direct */}
             <a href={downloadUrl}>
