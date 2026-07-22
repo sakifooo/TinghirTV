@@ -57,7 +57,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-1">Direct Access</h4>
               <p className="text-sm text-muted-foreground">
-                No middleman, no account required. Just download and start watching your favorite teams instantly.
+                No account required. Simply download the app and start enjoying your favorite sports.
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-1">Low Latency Technology</h4>
               <p className="text-sm text-muted-foreground">
-                Our servers are optimized for live sports, ensuring you see the goal before the neighbors scream.
+                Optimized for fast and stable streaming with minimal delay.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-1">Privacy First</h4>
               <p className="text-sm text-muted-foreground">
-                We don't track your personal data. Your sports viewing habits are your own business.
+                We respect your privacy and do not collect unnecessary personal information.
               </p>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-1">Educational Purpose & Disclaimer</h4>
               <p className="text-sm text-muted-foreground">
-                Tinghir TV is provided for educational and informational purposes only. We are not responsible for how users access or use third-party content. Users are solely responsible for ensuring their use complies with applicable laws, regulations, and copyright requirements in their country.
+                Tinghir TV provides access to content from third-party sources. We do not host or store any streaming content on our servers. Users are solely responsible for how they access and use third-party content and must comply with all applicable laws and copyright regulations in their country.
               </p>
             </div>
           </div>
