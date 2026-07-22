@@ -22,7 +22,7 @@ export function DownloadSection() {
             </div>
             
             <h3 className="text-2xl font-headline font-bold mb-2">Tinghir TV v1.1.0</h3>
-            <p className="text-xs text-muted-foreground mb-8">Size: 7.5 MB • Last Updated: 12 hours ago</p>
+            <p className="text-xs text-muted-foreground mb-8">Size: 32.7 MB • Last Updated: 12 hours ago</p>
 
             {/* Bdelna href hna b link d github release direct */}
             <a href={downloadUrl}>
