@@ -3,7 +3,7 @@ import { Download } from 'lucide-react';
 
 export function Hero() {
   // Rabit d GitHub Release bash y7seb downloads 100%
-  const downloadUrl = "https://github.com/sakifooo/TinghirTV/releases/download/v1.0.0/TinghirTV.apk";
+  const downloadUrl = "https://github.com/sakifooo/TinghirTV/releases/download/latest/TinghirTV.apk";
 
   return (
     <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-secondary/5">
